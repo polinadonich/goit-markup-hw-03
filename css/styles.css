@@ -1,0 +1,260 @@
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --accept-color: #2196f3;
+  --primery-bg-color: #ffffff;
+  --accept-bg-color: #2f303a;
+}
+
+.page {
+  background-color: var(--primery-bg-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* site-nav */
+
+.header {
+  padding-inline-start: 200px;
+}
+
+.logo-accept {
+  color: var(--accept-color);
+}
+
+.logo {
+  color: var(--primery-text-color);
+}
+
+.logo-text {
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--primery-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accept-color);
+}
+
+.link-is-active {
+  color: var(--accept-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-nav .link {
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accept-color);
+}
+
+.contact-nav {
+  padding: 0px;
+  margin: 0px;
+}
+/* Hero */
+
+.hero {
+  background-color: var(--accept-bg-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hero-title {
+  color: var(--primery-bg-color);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.primery-button {
+  color: var(--primery-bg-color);
+  background-color: var(--accept-color);
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+}
+/* Section */
+.section-title {
+  color: var(--primery-text-color);
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--primery-text-color);
+}
+
+.button {
+  color: var(--primery-bg-color);
+  background-color: var(--accept-color);
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 0px;
+}
+
+.title {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.text {
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Staff */
+
+.section-staff {
+  background-color: #f5f4fa;
+}
+
+.staff-title {
+  font-weight: 500;
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.staff-text {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+
+.portfolio-nav .button {
+  background-color: #f5f4fa;
+  color: var(--primery-text-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-nav .button:hover,
+.portfolio-nav .button:focus {
+  color: var(--primery-bg-color);
+  background-color: var(--accept-color);
+}
+
+.portfolio-box {
+  background: var(--primery-bg-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+}
+
+.portfolio-title {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--accept-bg-color);
+}
+
+.logo-whait {
+  color: var(--primery-bg-color);
+  letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address {
+  color: var(--primery-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* цвет основного текста #212121;
+ */
+
+/* вторичный цвет текста #757575;
+ */
+
+/* белый #ffffff */
+
+/* цветовой акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
