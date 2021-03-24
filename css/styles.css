@@ -113,14 +113,14 @@ a {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 /* Section */
 .section {
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-title {
   color: var(--primery-text-color);
