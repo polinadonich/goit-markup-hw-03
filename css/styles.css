@@ -4,6 +4,7 @@
   --accept-color: #2196f3;
   --primery-bg-color: #ffffff;
   --accept-bg-color: #2f303a;
+  --bg-color: #f5f4fa;
 }
 
 .page {
@@ -14,7 +15,7 @@
 /* site-nav */
 
 .header {
-  padding-inline-start: 200px;
+  padding-inline-start: 215px;
 }
 
 .logo-accept {
@@ -85,6 +86,7 @@ a {
   background-color: var(--accept-bg-color);
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .hero-title {
@@ -93,9 +95,8 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
@@ -113,6 +114,9 @@ a {
   min-width: 200px;
 }
 /* Section */
+.section {
+  margin-bottom: 94px;
+}
 .section-title {
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
@@ -120,6 +124,8 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 /* Features */
@@ -148,6 +154,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .text {
@@ -160,7 +168,8 @@ a {
 /* Staff */
 
 .section-staff {
-  background-color: #f5f4fa;
+  background-color: var(--bg-color);
+  margin-bottom: 94px;
 }
 
 .staff-title {
@@ -169,6 +178,8 @@ a {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .staff-text {
@@ -195,7 +206,15 @@ a {
   color: var(--primery-bg-color);
   background-color: var(--accept-color);
 }
+.portfolio-nav {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 
+.portfolio {
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
 .portfolio-box {
   background: var(--primery-bg-color);
   border: 1px solid #eeeeee;
@@ -223,6 +242,17 @@ a {
 
 .footer {
   background-color: var(--accept-bg-color);
+  padding-inline-start: 215px;
+  padding-bottom: 60px;
+}
+
+.logo-text-footer {
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-bottom: 20px;
+  padding-top: 60px;
 }
 
 .logo-whait {
@@ -238,14 +268,22 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 9px;
 }
-
+.contact-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
 .contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 9px;
+  display: inline-block;
 }
 /* цвет основного текста #212121;
  */
