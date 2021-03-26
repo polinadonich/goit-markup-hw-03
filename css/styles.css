@@ -5,6 +5,7 @@
   --primery-bg-color: #ffffff;
   --accept-bg-color: #2f303a;
   --bg-color: #f5f4fa;
+  --portfolio-box-gap: 30px;
 }
 
 .page {
@@ -37,6 +38,11 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .site-nav .link {
@@ -117,6 +123,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* Section */
 .section {
   padding-top: 94px;
@@ -204,6 +211,7 @@ a {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  margin-left: 8px;
 }
 
 .portfolio-nav .button:hover,
@@ -214,11 +222,17 @@ a {
 .portfolio-nav {
   margin-top: 94px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio {
   margin-top: 0px;
   margin-bottom: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--portfolio-box-gap));
+  margin-left: calc(-1 * var(--portfolio-box-gap));
 }
 .portfolio-box {
   background: var(--primery-bg-color);
@@ -226,6 +240,10 @@ a {
   box-sizing: border-box;
   width: 370px;
   height: 404px;
+  padding: 0;
+  flex-basis: calc(100% / 3)-var(--portfolio-box-gap);
+  margin-left: var(--portfolio-box-gap);
+  margin-top: var(--portfolio-box-gap);
 }
 
 .portfolio-title {
@@ -234,6 +252,7 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0px;
 }
 
 .portfolio-text {
@@ -241,6 +260,11 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 4px;
+}
+
+.card-content {
+  padding: 20px 24px;
 }
 
 /* Footer */
