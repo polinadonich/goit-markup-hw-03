@@ -15,6 +15,26 @@
 
 /* site-nav */
 
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.header {
+  border: 1px solid #ececec;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo-accept {
   color: var(--accept-color);
 }
@@ -29,6 +49,7 @@
   font-size: 26px;
   line-height: 1.19;
   padding-left: 0px;
+  margin-right: 93px;
 }
 
 ul {
@@ -51,6 +72,8 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: block;
+  padding-right: 50px;
 }
 
 .site-nav .link:hover,
@@ -58,12 +81,17 @@ img {
   color: var(--accept-color);
 }
 
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 .link-is-active {
   color: var(--accept-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-right: 50px;
 }
 .contact-nav .link {
   color: var(--title-text-color);
@@ -73,6 +101,8 @@ img {
   line-height: 1.14;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  padding-left: 50px;
 }
 
 .contact-nav .link:hover,
@@ -83,6 +113,8 @@ img {
 .contact-nav {
   padding: 0px;
   margin: 0px;
+  display: flex;
+  align-items: center;
 }
 /* Hero */
 
@@ -91,6 +123,9 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .hero-title {
@@ -160,7 +195,7 @@ img {
   border: 0px;
 }
 
-.title {
+.feature-list .title {
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 14px;
@@ -170,13 +205,16 @@ img {
   margin-top: 0px;
 }
 
-.text {
+.feature-list .text {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
 
+.feature-list {
+  display: flex;
+}
 /* Staff */
 
 .section-staff {
@@ -226,6 +264,9 @@ img {
   justify-content: center;
 }
 
+.nav-child .button {
+  margin-left: 0px;
+}
 .portfolio {
   margin-top: 0px;
   margin-bottom: 94px;
