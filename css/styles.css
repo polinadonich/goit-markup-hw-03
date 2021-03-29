@@ -5,7 +5,7 @@
   --primery-bg-color: #ffffff;
   --accept-bg-color: #2f303a;
   --bg-color: #f5f4fa;
-  -portfolio-box-gap-: 30px;
+  --portfolio-box-gap: 30px;
 }
 
 .page {
@@ -162,6 +162,11 @@ img {
 
 /* Section */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
@@ -171,7 +176,6 @@ img {
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 /* Features */
@@ -201,7 +205,6 @@ img {
   margin-bottom: 10px;
   margin-top: 0px;
   color: var(--primery-text-color);
-  padding-top: 94px;
 }
 
 .feature-list .text {
@@ -225,7 +228,10 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 0px;
-  padding-bottom: 94px;
+}
+
+.work {
+  padding-top: 0px;
 }
 
 /* Staff */
@@ -236,7 +242,6 @@ img {
 .card-staff {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
   margin: 0px;
 }
 .card-man {
@@ -272,7 +277,6 @@ img {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  margin-left: 8px;
 }
 
 .portfolio-nav .button:hover,
@@ -286,8 +290,10 @@ img {
   display: flex;
   justify-content: center;
 }
-
-.nav-child .button {
+.portfolio-nav .nav-child {
+  margin-left: 8px;
+}
+.portfolio-nav .nav-child:first-child {
   margin-left: 0px;
 }
 .portfolio {
@@ -305,7 +311,7 @@ img {
   width: 370px;
   height: 404px;
   padding: 0;
-  flex-basis: calc(100% / 3)-var(--portfolio-box-gap);
+  flex-basis: calc(100% / 3)- var(--portfolio-box-gap);
   margin-left: var(--portfolio-box-gap);
   margin-top: var(--portfolio-box-gap);
 }
@@ -325,6 +331,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 4px;
+  margin-bottom: 20px;
 }
 
 .card-content {
