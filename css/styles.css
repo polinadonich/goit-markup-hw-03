@@ -5,7 +5,7 @@
   --primery-bg-color: #ffffff;
   --accept-bg-color: #2f303a;
   --bg-color: #f5f4fa;
-  --portfolio-box-gap: 30px;
+  -portfolio-box-gap-: 30px;
 }
 
 .page {
@@ -151,6 +151,7 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  margin-bottom: 94px;
 }
 
 .container {
@@ -160,10 +161,7 @@ img {
 }
 
 /* Section */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .section-title {
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
@@ -171,15 +169,12 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 /* Features */
-
-.feature-list .title {
-  color: var(--primery-text-color);
-}
 
 .button {
   color: var(--primery-bg-color);
@@ -194,7 +189,9 @@ img {
   padding: 6px 22px;
   border: 0px;
 }
-
+.feature-list {
+  margin: 0px;
+}
 .feature-list .title {
   letter-spacing: 0.03em;
   font-weight: 700;
@@ -203,6 +200,8 @@ img {
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 0px;
+  color: var(--primery-text-color);
+  padding-top: 94px;
 }
 
 .feature-list .text {
@@ -210,18 +209,40 @@ img {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
+  margin: 0px;
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .feature-list {
   display: flex;
+  justify-content: space-between;
 }
+
+/* Чем мы занимаемся */
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding-bottom: 94px;
+}
+
 /* Staff */
 
 .section-staff {
   background-color: var(--bg-color);
-  margin-bottom: 94px;
 }
-
+.card-staff {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+  margin: 0px;
+}
+.card-man {
+  background-color: var(--primery-bg-color);
+  text-align: center;
+}
 .staff-title {
   font-weight: 500;
   color: var(--primery-text-color);
@@ -237,6 +258,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
+  margin-top: 0px;
 }
 
 /* Portfolio */
