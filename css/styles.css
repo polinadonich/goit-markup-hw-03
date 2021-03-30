@@ -6,6 +6,7 @@
   --accept-bg-color: #2f303a;
   --bg-color: #f5f4fa;
   --portfolio-box-gap: 30px;
+  --border-card-content: 1px solid #EEEEEE;
 }
 
 .page {
@@ -210,9 +211,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   margin: 0px;
-  width: 270px;
   display: flex;
-  justify-content: space-between;
 }
 
 .feature-list {
@@ -222,7 +221,10 @@ img {
 .featute-item:not(:last-child) {
   margin-right: 30px;
 }
+.featute-item {
+  width: 270px;
 
+}
 /* Чем мы занимаемся */
 .images {
   display: flex;
@@ -243,12 +245,20 @@ img {
   display: flex;
   margin: 0px;
 }
-.card-man {
+
+
+.card-item {
+  width: 270px;
   background-color: var(--primery-bg-color);
   text-align: center;
 }
 .card-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.card-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .staff-title {
   font-weight: 500;
@@ -256,8 +266,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .staff-text {
@@ -265,8 +275,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
-  margin-top: 0px;
+  margin: 0px;
+  
 }
 
 /* Portfolio */
@@ -287,7 +297,6 @@ img {
   background-color: var(--accept-color);
 }
 .portfolio-nav {
-  margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -299,8 +308,6 @@ img {
   margin-left: 0px;
 }
 .portfolio {
-  margin-top: 0px;
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--portfolio-box-gap));
@@ -308,12 +315,9 @@ img {
 }
 .portfolio-box {
   background: var(--primery-bg-color);
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
   width: 370px;
-  height: 404px;
   padding: 0;
-  flex-basis: calc(100% / 3)- var(--portfolio-box-gap);
   margin-left: var(--portfolio-box-gap);
   margin-top: var(--portfolio-box-gap);
 }
@@ -333,11 +337,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .card-content {
   padding: 20px 24px;
+  border-left: var(--border-card-content);
+  border-right: var(--border-card-content);
+  border-bottom: var(--border-card-content);
 }
 
 /* Footer */
@@ -345,6 +351,7 @@ img {
 .footer {
   background-color: var(--accept-bg-color);
   padding-bottom: 60px;
+padding-top: 60px;
 }
 
 .logo-text-footer {
@@ -353,7 +360,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   margin-bottom: 20px;
-  padding-top: 60px;
 }
 
 .logo-whait {
@@ -369,8 +375,9 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 0px;
-  margin-bottom: 9px;
+  margin-top: 20px;
+ 
+  
 }
 .contact-list {
   margin-top: 0px;
@@ -383,9 +390,14 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
   display: inline-block;
 }
+
+.contact-item {
+  margin-top: 9px;
+}
+
+
 /* цвет основного текста #212121;
  */
 
