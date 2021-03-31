@@ -91,16 +91,12 @@ img {
 }
 .site-nav .link-is-active {
   color: var(--accept-color);
-  /* font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em; */
-
-}
+ }
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
+
 .contact-nav .link {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
@@ -110,7 +106,6 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
-  padding-left: 50px;
 }
 
 .contact-nav .link:hover,
@@ -123,6 +118,9 @@ img {
   margin: 0px;
   display: flex;
   align-items: center;
+}
+.contact-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 /* Hero */
 
@@ -300,6 +298,7 @@ img {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  margin-top: 0px;
 }
 .portfolio-nav .nav-child {
   margin-left: 8px;
@@ -337,6 +336,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 4px;
+  margin-bottom: 0px;
 }
 
 .card-content {
@@ -380,10 +380,11 @@ padding-top: 60px;
   
 }
 .contact-list {
-  margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
+  margin-top: 9px;
 }
+
 .contact {
   font-size: 14px;
   line-height: 1.71;
@@ -391,9 +392,10 @@ padding-top: 60px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   display: inline-block;
+  
 }
 
-.contact-item {
+.contact-item:last-child {
   margin-top: 9px;
 }
 
